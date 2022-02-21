@@ -2,18 +2,20 @@
   <v-app id="app">
     <Nav />
     <!-- <Landing /> -->
-    <Details />
+    <!-- <Details /> -->
+    <Cart />
     <Footer id="contact" />
   </v-app>
 </template>
 
 <script>
-import Details from "./components/Details.vue";
+import Cart from "./components/Cart.vue";
+// import Details from "./components/Details.vue";
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 // import Landing from "./views/landing.vue";
 export default {
-  components: { Footer, Nav, Details },
+  components: { Footer, Nav, Cart },
 };
 </script>
 
@@ -24,6 +26,9 @@ export default {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+// p {
+//   margin-bottom: 0px !important;
+// }
 .container {
   max-width: 1240px;
   width: 100%;

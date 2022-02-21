@@ -25,10 +25,10 @@
         </v-btn>
         <v-spacer></v-spacer>
         <div class="hidden-sm-and-down">
-          <v-btn href="#products" text class="black--text">Discovery</v-btn>
+          <v-btn text class="black--text">Discovery</v-btn>
           <v-btn href="#about" text>About</v-btn>
           <v-btn href="#contact" text>Contact</v-btn>
-          <router-view></router-view>
+          <!-- <router-view></router-view> -->
         </div>
         <v-spacer></v-spacer>
         <v-btn icon>
